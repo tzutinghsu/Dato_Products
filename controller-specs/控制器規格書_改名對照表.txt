@@ -1,0 +1,50 @@
+＝＝ 還缺的 7 份控制器規格書：改名對照表 ＝＝
+這 7 份你是上傳到「專案檔案區」，我只讀得到文字、拿不到 PDF 本體。
+請用原檔改成下面的檔名，丟進 GitHub 的 controller-specs 資料夾。
+檔名大小寫、底線、連字號要完全一致，不然點下去會 404。
+
+你的原檔名
+  → 改成的檔名
+  → 對應產品
+
+1. Phison M 2 2242 PS5019-E19T BiCS5 SPEC V1.1.pdf
+   → Phison_PS5019-E19T_BiCS5_M2_2242_controller_spec_V1.1.pdf
+   → DP342
+
+2. B. S-22236 Consumer M.2 2280 PS5026-E26 Gen5 Pro SPEC_V1.7.pdf
+   → Phison_PS5026-E26_Gen5_Pro_controller_spec_V1.7.pdf
+   → Aethon
+
+3. Phison PUT-C PCBA PS2251-17  SPEC_V2.6.pdf
+   → Phison_PS2251-17_PUT-C_PCBA_controller_spec_V2.6.pdf
+   → Torch
+
+4. Phison DualPro V2 PCBA High performance PS2251-17 TLC QLC SPEC_V1.1.pdf
+   → Phison_PS2251-17_DualPro_V2_PCBA_controller_spec_V1.1.pdf
+   → DS3005
+
+5. Phison Lucky DiskPS2251-19 Spec_V1.0.pdf
+   → Phison_PS2251-19_Lucky_Disk_controller_spec_V1.0.pdf
+   → DB8003
+
+6. Phison Panda Duo PCBA PS2251-19 SPEC_v1.0 HV3 Bin1H .pdf
+   → Phison_PS2251-19_Panda_Duo_HV3_Bin1H_controller_spec_V1.0.pdf
+   → D02003（高速版）
+
+7. Phison Panda Duo PCBA PS2251-19 SPEC_v1.0 HV3 Mix .pdf
+   → Phison_PS2251-19_Panda_Duo_HV3_Mix_controller_spec_V1.0.pdf
+   → D02003（Mix 料版）
+
+────────────────────────────────────────
+另外要一起做的兩件事：
+
+A. 這份也要上傳（上次給過，若還沒放就一起放進 controller-specs）：
+     Phison_PS5021-E21T_N48R_QLC_M2_2230_controller_spec_V0.5.pdf
+     → DP430、ARS430 共用
+
+B. 這份已經沒有任何產品在用，可以從 controller-specs 刪掉：
+     Phison_PS2251-17_U32-C_controller_spec_V1.4.pdf
+     （原本掛在 Torch，但 Torch 要的是 PUT-C 那份）
+   不刪也不會壞，只是變成沒人用的檔案。
+
+上傳後選「Commit directly to the main branch」。
